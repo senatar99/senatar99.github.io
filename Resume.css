@@ -1,0 +1,43 @@
+body{
+    background-color: linen;
+}
+main{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5em;
+    background-color: lightgrey;
+    padding-bottom: 15em;
+}
+section.name{
+    background-color: peachpuff;
+}
+section.name{
+    text-align: center;
+}
+section.name{
+    border-style: solid;
+}
+h2{
+     text-decoration: underline;
+     text-decoration-color: blue;
+}
+section.info{
+    text-align: center;
+    margin-top: 2em;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+@media screen and (min-width: 20em){
+    #job{
+        display: grid;
+        grid-auto-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "Cashier Bagger Stocker Manager"
+        ;
+    }
+}
